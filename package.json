@@ -1,0 +1,8 @@
+{
+  "name": "ai-master",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ai Master multi-provider AI orchestrator",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^5.1.0" }
+}

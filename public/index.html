@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ai Master</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">AI ORCHESTRATOR</p>
+        <h1>Ai Master</h1>
+        <p class="sub">One interface for multiple AI capabilities.</p>
+      </div>
+      <span id="status" class="status">Checking…</span>
+    </header>
+
+    <section id="chat" class="chat">
+      <div class="bubble ai">Yo 👋 I’m <b>Ai Master</b>. Ask me something and I’ll route it to the configured AI backend.</div>
+    </section>
+
+    <form id="form" class="composer">
+      <textarea id="input" rows="2" placeholder="Ask Ai Master anything…"></textarea>
+      <button>Send</button>
+    </form>
+
+    <p class="hint">Routing modes: general · coding · creative · web</p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

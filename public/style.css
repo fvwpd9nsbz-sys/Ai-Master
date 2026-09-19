@@ -1,0 +1,13 @@
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#08090d;color:#f7f7fb}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at top,#24233b 0,#08090d 45%);display:flex;justify-content:center}
+.shell{width:min(900px,94vw);min-height:100vh;padding:32px 0 24px;display:flex;flex-direction:column}
+header{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:24px}
+.eyebrow{font-size:11px;letter-spacing:.18em;opacity:.55;margin:0 0 7px}h1{font-size:42px;line-height:1;margin:0}.sub{opacity:.65;margin:10px 0 0}
+.status{padding:7px 11px;border:1px solid #ffffff18;border-radius:999px;background:#ffffff08;font-size:12px}
+.chat{flex:1;min-height:55vh;display:flex;flex-direction:column;gap:12px;padding:8px 0 20px}
+.bubble{max-width:85%;padding:14px 16px;border-radius:18px;line-height:1.5;white-space:pre-wrap}
+.ai{background:#ffffff0d;border:1px solid #ffffff12;align-self:flex-start}.user{background:#4d46ff;color:white;align-self:flex-end}
+.composer{display:flex;gap:10px;padding:10px;border:1px solid #ffffff15;background:#0d0f17cc;backdrop-filter:blur(18px);border-radius:20px}
+textarea{flex:1;resize:none;background:transparent;border:0;outline:0;color:inherit;font:inherit;padding:9px}
+button{border:0;border-radius:14px;padding:0 20px;font-weight:700;cursor:pointer;background:#fff;color:#090a0f}
+.hint{font-size:12px;opacity:.45;text-align:center;margin:12px 0 0}
